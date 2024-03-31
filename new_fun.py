@@ -6,3 +6,6 @@ def print_name(name):
 
 def print_surname(surname):
     print(surname)
+
+def print_animal(animal):
+    print(animal)
