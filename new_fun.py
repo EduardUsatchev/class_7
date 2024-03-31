@@ -9,3 +9,4 @@ def print_surname(surname):
 
 def print_animal(animal):
     print(animal)
+
