@@ -5,6 +5,7 @@ def disk_resize(disk_name, machine_name,target_gb):
     print("locating machine")
     print("resizing disk")
     print("SSHing to machine")
+    print("Its actually works")
 
 disk_name = getenv("DISK_NAME")
 machine_name = getenv("MACHINE_NAME")
