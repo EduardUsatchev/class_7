@@ -1,5 +1,4 @@
-properties([parameters([string(defaultValue: 'default', name: 'DISK_NAME'), string(defaultValue: 'default', name: 'MACHINE_NAME'), string('TARGET_GB')]), pipelineTriggers([cron('49 * * * *')])])node("cognyte"){
-    stage("clone"){
+properties([parameters([string(defaultValue: 'default', name: 'DISK_NAME'), string(defaultValue: 'default', name: 'MACHINE_NAME'), string('TARGET_GB')]), pipelineTriggers([cron('49 * * * *'), githubPush()])])    stage("clone"){
         git branch: 'main', url: 'https://github.com/EduardUsatchev/class_7.git'    
         
     }
