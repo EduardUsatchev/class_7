@@ -1,5 +1,5 @@
 properties([parameters([string(defaultValue: 'sda', name: 'DISK_NAME'), string('MACHINE_NAME'), string('TARGET_GB')])])
-node("edi2"){
+node("cognyte"){
     stage("clone"){
         git branch: 'main', url: 'https://github.com/EduardUsatchev/class_7.git'    
         
