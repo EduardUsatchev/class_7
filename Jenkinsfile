@@ -1,4 +1,4 @@
-node("edi"){
+node("class5"){
     stage("clone"){
         git branch: 'main', url: 'https://github.com/EduardUsatchev/class_7.git'    
         
