@@ -1,6 +1,6 @@
 from os import getenv
 def disk_resize(disk_name, machine_name,target_gb):
-    print(f"details {disk_name} {machine_name} to {target_gb}")
+    print(f"details {disk_name} {machine_name} to {target_gb} GB")
     print("Connecting to vsphere")
     print("locating machine")
     print("resizing disk")
